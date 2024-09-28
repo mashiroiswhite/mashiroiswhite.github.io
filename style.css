@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*,::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+.main {
+    display: flex;
+}
+div {
+    display: inline-block;
+}
+p {
+    font-size: medium;
+}
+img {
+    background-color: white;
+    max-width: 100%;
+    border-radius: 12px;
+}
+.left-biodata{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    border-radius: 12px;
+    row-gap: 12px;
+
+}
+
+.biodata-wrapper {
+    display: flex;
+    column-gap: 10px;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
+}
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 0px;
+}
+.paragraph-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.right-biodata {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    background-color:rgb(31, 31, 31);
+    border-radius: 12px;
+    row-gap: 12px;
+}
