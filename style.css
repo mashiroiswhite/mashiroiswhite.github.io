@@ -3,30 +3,37 @@ html {
     box-sizing: border-box;
     font-size: 100%;
 }
+
 *,::before, *::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: rgb(31, 31, 31);
     font-family: Montserrat, sans-serif;
     color: white;
 }
+
 .main {
     display: flex;
 }
+
 div {
     display: inline-block;
 }
+
 p {
     font-size: medium;
 }
+
 img {
     background-color: white;
     max-width: 100%;
     border-radius: 12px;
 }
+
 .left-biodata{
     display: flex;
     flex-direction: column;
@@ -37,7 +44,6 @@ img {
     background-color: rgb(31, 31, 31);
     border-radius: 12px;
     row-gap: 12px;
-
 }
 
 .biodata-wrapper {
@@ -49,11 +55,13 @@ img {
     border-left: 0.5px solid white;
     border-right: 0.5px solid white;
 }
+
 .svg-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .svg {
     width: 30px;
     height: 30px;
@@ -61,6 +69,7 @@ img {
     padding: 3px;
     border-radius: 0px;
 }
+
 .paragraph-container {
    display: flex;
    flex-direction: column;
@@ -77,4 +86,36 @@ img {
     background-color:rgb(31, 31, 31);
     border-radius: 12px;
     row-gap: 12px;
+}
+
+.medsos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.medsos-wrapper {
+    display: flex;
+    column-gap: 10px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    max-width: 35%;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#copyright-container {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-top: 2px solid grey;
+    max-width: 96%;
 }
