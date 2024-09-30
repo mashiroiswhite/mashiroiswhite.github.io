@@ -26,24 +26,28 @@ div {
 
 p {
     font-size: medium;
+    text-align: justify;
 }
 
 img {
     background-color: white;
-    max-width: 100%;
+    max-width: 85%; /* 100% default */
     border-radius: 12px;
 }
 
-.left-biodata{
+.left-section{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    margin: 1rem;
-    padding: 1rem;
+    width: 25%;
+    height: 44rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
     text-align: center;
     background-color: rgb(31, 31, 31);
     border-radius: 12px;
     row-gap: 12px;
+    /* border: 2px solid wheat; */
 }
 
 .biodata-wrapper {
@@ -52,8 +56,9 @@ img {
     overflow: hidden;
     text-align: left;
     width: 100%;
+    margin: 0 2rem;
     border-left: 0.5px solid white;
-    border-right: 0.5px solid white;
+    /* border-right: 0.5px solid white; */
 }
 
 .svg-container {
@@ -76,16 +81,20 @@ img {
    justify-content: center;
 }
 
-.right-biodata {
+.right-section {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    margin: 1rem;
-    padding: 1rem;
+    width: 73%;
+    height: 42rem;
+    margin-top: 2rem;
     text-align: left;
     background-color:rgb(31, 31, 31);
     border-radius: 12px;
     row-gap: 12px;
+    /* border: 2px solid wheat; */
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
 }
 
 .medsos-container {
@@ -109,12 +118,100 @@ a {
     flex-direction: column;
     justify-content: center;
     color: white;
+    text-decoration: none;
 }
+
+a:hover {
+    color: rgba(255, 255, 255, 0.697);
+    cursor: pointer;
+}
+
+.sub-project-head {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px ;
+    border-bottom: 2px solid white;
+}
+
+.sub-project-svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    padding: 2px;
+    border-radius: 0px;
+}
+
+.sub-project-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* border: 1px solid white; */
+}
+
+.sub-project-container {
+    width: 32%;
+    border-radius: 12px;
+    /* background-color: #1e2231; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+}
+
+.sub-project-container img {
+    width: 100%;
+    height: auto;
+}
+
+.sub-project-container .description {
+    padding: 20px;
+    height: 100%;
+}
+
+.tags {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.tags span {
+    background-color: #334155;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin-right: 5px;
+    font-size: small;
+    color: #ffffff;
+}
+
+.tags #java {
+    background-color: 	#2c384a;
+}
+
+.tags #xampp {
+    background-color: #495e7b;
+}
+
+.tags #figma {
+    background-color: #595bd4;
+}
+
+/* .tags span:nth-child(1) {
+    background-color: 	#334155;
+}
+
+.tags span:nth-child(2) {
+    background-color: #495e7b;
+}
+
+.tags span:nth-child(3) {
+    background-color:#595bd4;
+} */
 
 #copyright-container {
     display: flex;
     margin-left: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-top: 10px;
     border-top: 2px solid grey;
     max-width: 96%;
