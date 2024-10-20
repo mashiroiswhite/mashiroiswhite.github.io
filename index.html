@@ -4,38 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huandika Ekaputra - Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<!--    <link rel="icon" href="assets/images/Cropped Huan Test.jpg" type="image/jpg">-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/globals.css">
 </head>
 <body>
     <div class="main">
+
+    <!--
+        Left section Container
+    -->
         <div class="left-section">
             <div>
-                <img src="assets/images/Cropped Huan Test.jpg" alt="">
+                <img class="profile-photo" src="assets/images/Cropped Huan Test.jpg" alt="Profile Picture">
             </div>
             <div>
                 <h3>Huandika Ekaputra</h3>
             </div>
+
+    <!--
+        Biodata Section
+    -->
             <div class="biodata-wrapper">
                 <div class="svg-container">
-                    <img class="svg" src="assets/svg/email-1573-svgrepo-com.svg" alt="" >
+                    <img class="svg" src="assets/svg/email-1573-svgrepo-com.svg" alt="Email Icon" >
                 </div>
                 <div class="paragraph-container">
                     <p>Personal Email</p>
-                    <p>huandikaekaputra@gmail.com</p>
+                    <a href="mailto:huandikaekaputra@gmail.com">huandikaekaputra@gmail.com</a>
                 </div>
             </div>
             <div class="biodata-wrapper">
                 <div class="svg-container">
-                    <img class="svg" src="assets/svg/work-case-svgrepo-com.svg" alt="" >
+                    <img class="svg" src="assets/svg/work-case-svgrepo-com.svg" alt="Business Email Icon" >
                 </div>
                 <div class="paragraph-container">
                     <p>Business Email</p>
-                    <p>huandika.ekaputra@binus.ac.id</p>
+                    <a href="mailto:huandika.ekaputra@binus.ac.id">huandika.ekaputra@binus.ac.id</a>
                 </div>
             </div>
             <div class="biodata-wrapper">
                 <div class="svg-container">
-                    <img class="svg" src="assets/svg/telephone-svgrepo-com.svg" alt="" >
+                    <img class="svg" src="assets/svg/telephone-svgrepo-com.svg" alt="Phone Icon" >
                 </div>
                 <div class="paragraph-container">
                     <p>Phone</p>
@@ -44,7 +54,7 @@
             </div>
             <div class="biodata-wrapper">
                 <div class="svg-container">
-                    <img class="svg" src="assets/svg/birthday-cake-svgrepo-com.svg" alt="" >
+                    <img class="svg" src="assets/svg/birthday-cake-svgrepo-com.svg" alt="Birtday Icon" >
                 </div>
                 <div class="paragraph-container">
                     <p>Birthday</p>
@@ -53,27 +63,36 @@
             </div>
             <div class="biodata-wrapper">
                 <div class="svg-container">
-                    <img class="svg" src="assets/svg/location-pin-svgrepo-com.svg" alt="" >
+                    <img class="svg" src="assets/svg/location-pin-svgrepo-com.svg" alt="Location Icon" >
                 </div>
                 <div class="paragraph-container">
                     <p>Location</p>
-                    <p>Jakarta, Indonesia</p>
+                    <p>Jakarta Barat, Indonesia</p>
                     <hr>
                 </div>
             </div>
         </div>
+
+    <!--
+        Right Section Container
+    -->
         <div class="right-section">
+
+    <!--
+        About Me Section
+    -->
             <h2>About Me</h2>
             <hr>
             <p>
                 I am an undergraduate student at BINUS University, majoring in Information Systems. As a passionate tech enthusiast, 
                 I have developed a keen interest in cutting-edge technologies, particularly Artificial Intelligence and Blockchain.
-                My academic journey has equipped me with hands-on experience in various development environments, including Eclipse IDE, 
-                Visual Studio Code, and XAMPP. 
+                My academic journey has equipped me with hands-on experience in areas such as Software Engineering and User Interface Design. 
+                <!-- hands-on experience in various development environments, including Eclipse IDE, Visual Studio Code, and XAMPP.  -->
             </p>
             <p>
                 I'm also proficient in database management, such as SQL Server Management Studio (SSMS) 
-                to handle data effectively and designing UI/UX in Figma to craft intuitive and visually appealing interfaces. 
+                to handle data effectively. 
+                <!-- and designing UI/UX in Figma to craft intuitive and visually appealing interfaces.  -->
                 Not only that, i also have a general understanding of AWS Cloud and how it works.
             </p>
             <p>
@@ -84,66 +103,126 @@
                 As I continue to grow in my field, I'm excited about the possibilities that lie at the intersection of information systems, AI, and blockchain 
                 technology. My goal is to leverage these skills and interests to contribute meaningfully to the ever-evolving world of technology.
             </p>
+
+    <!--
+        Social Media Container
+    -->
             <div class="medsos-container">
                 <div class="medsos-wrapper">
-                    <div class="svg-container">
-                        <img class="svg" src="assets/svg/linkedin-brands-solid.svg" alt="">
-                    </div>
-                    <a href="http://www.linkedin.com/in/huandika-ekaputra" target="_blank" rel="noopener noreferrer">LinkedIn | Huandika Ekaputra</a>
+                    <a class="medsos-link" href="http://www.linkedin.com/in/huandika-ekaputra" target="_blank" rel="noopener noreferrer">
+                        <div class="svg-container">
+                            <img class="svg" src="assets/svg/linkedin-brands-solid.svg" alt="">
+                        </div>
+                        LinkedIn | Huandika Ekaputra
+                    </a>
                 </div>
                 <div class="medsos-wrapper">
-                    <div class="svg-container">
-                        <img class="svg" src="assets/svg/github-142-svgrepo-com.svg" alt="">
-                    </div>
-                    <a href="https://github.com/mashiroiswhite/" target="_blank" rel="noopener noreferrer">Github | Huandika Ekaputra</a>
+                    <a class="medsos-link" href="https://github.com/mashiroiswhite/" target="_blank" rel="noopener noreferrer">
+                        <div class="svg-container">
+                            <img class="svg" src="assets/svg/github-142-svgrepo-com.svg" alt="">
+                        </div>
+                        Github | Huandika Ekaputra
+                    </a>
                 </div>
             </div>
+
+    <!--
+        My Projects Divider
+    -->
             <h2>My Projects</h2>
             <hr>
+    <!--
+        Project Types Divider
+    -->
             <div class="sub-project-head">
                 <div class="svg-container">
                     <img class="sub-project-svg" src="assets/svg/code-svgrepo-com.svg" alt="">
                 </div>
                 <h5>Coding Projects</h5>
-            </div>       
+            </div>
+
+    <!--
+        Project Cards Container
+    -->
             <div class="sub-project-body">
-                <div class="sub-project-container">
-                    <!-- Div for the image -->
+
+    <!--
+        Project Cards "Musang Forum"
+    -->
+                <div class="sub-project-container"
+                     data-description="Musang Forum is a live chat desktop application that me and my friends made during summer break. In the app, users can create forums, participate in open discussions, and engage with posts in real-time. Some features includes, user authentication, real-time chat, responsive UI, themes. This application was made with Java (JavaFX for front-end library), JavaFX CSS for styling, Java Sockets for real-time messaging (client-server architecture), and MySQL for the database engine. Musang Forum is a live chat desktop application that me and my friends made during summer break. In the app, users can create forums, participate in open discussions, and engage with posts in real-time. Some features includes, user authentication, real-time chat, responsive UI, themes. This application was made with Java (JavaFX for front-end library), JavaFX CSS for styling, Java Sockets for real-time messaging (client-server architecture), and MySQL for the database engine."
+                     data-project-link="https://google.com">
+                    <div class="project-img-cont">
+                        <img src="assets/images/Musang Forum - Main Page.png" alt="Musang Forum">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                    </div>
                     <div class="description">
-                        <h2>Chat Application</h2>
-                        <p>Responsive chat application to interact with other user seamlessly</p>
+                        <h2>Musang Forum</h2>
+                        <p>Responsive forum application to interact with other user seamlessly</p>
                         <div class="tags">
-                            <span id="java">Java</span>
-                            <span id="xampp">XAMPP</span>
+                            <span class="java">Java</span>
+                            <span class="javafx">JavaFX</span>
+                            <span class="mysql">MySql</span>
                         </div>
                     </div>
                 </div>
-                <div class="sub-project-container">
+
+    <!--
+        Project Cards "Ho-ohdie"
+    -->
+                <div class="sub-project-container"
+                     data-description="Ho-ohdie is the name of the program that me and my team made for our Final Exam of Business Application Development. In short, hO-ohdie is a growing store that sells various high-quality hoodies. hO-ohdie wants to provide a better customer experience by making hO-ohdie available digitally. For this project, we were tasked to create an application to manage their products and transactions. The program was made using Java as its main programming language with JavaFX for the front-end library, and MySQL for the database engine."
+                     data-project-link="https://google.com">
+                    <div class="project-img-cont">
+                        <img src="assets/images/ho-ohdie Home Page.png" alt="Ho-ohdie">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                    </div>
                     <div class="description">
                         <h2>Ho-ohdie</h2>
                         <p>Application to track stored jackets and transactions</p>
                         <div class="tags">
-                            <span id="java">Java</span>
-                            <span id="xampp">XAMPP</span>
+                            <span class="java">Java</span>
+                            <span class="javafx">JavaFX</span>
+                            <span class="mysql">MySql</span>
                         </div>
                     </div>
                 </div>
-                <div class="sub-project-container">
+
+    <!--
+        Project Cards "Traditional Calculator"
+    -->
+                <div class="sub-project-container"
+                     data-description="This is the project description."
+                     data-project-link="https://google.com">
+                    <div class="project-img-cont">
+                        <img src="assets/images/Traditional Calculator.png" alt="Calculator">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                    </div>
                     <div class="description">
                         <h2>Traditional Calculator</h2>
                         <p>A traditional calculator made in java with GUI</p>
                         <div class="tags">
-                            <span id="java">Java</span>
+                            <span class="java">Java</span>
+                            <span class="javafx">JavaFX</span>
                         </div>
                     </div>
                 </div>
-                <div class="sub-project-container">
-                    <!-- Div for the image -->
+
+    <!--
+        Project Cards "Java Simple Console"
+    -->
+                <div class="sub-project-container"
+                     data-description="This is the project description."
+                     data-project-link="https://google.com">
+                    <div class="project-img-cont">
+                        <img src="assets/images/Java Simple Console.png" alt="java simple console">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                    </div>
                     <div class="description">
                         <h2>Java Simple Console</h2>
                         <p>Lorem ipsum dolor sit amet</p>
                         <div class="tags">
-                            <span id="java">Java</span>
+                            <span class="java">Java</span>
                         </div>
                     </div>
                 </div>
@@ -154,16 +233,25 @@
                 </div>
                 <h5>UI/UX Design Projects</h5>
             </div>
+
+    <!--
+        Project Cards ""
+    -->
             <div class="sub-project-body">
-                <div class="sub-project-container">
-                    <!-- Div for the image -->
+                <div class="sub-project-container"
+                     data-description="This is the project description."
+                     data-project-link="https://google.com">
+                    <div class="project-img-cont">
+                        <img src="assets/images/Musang Forum - Main Page.png" alt="Musang Forum">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                    </div>
                     <div class="description">
                         <h2>Java Simple Console</h2>
                         <p>Lorem ipsum dolor sit amet</p>
                         <div class="tags">
-                            <span id="java">Java</span>
-                            <span id="xampp">XAMPP</span>
-                            <span id="figma">Figma</span>
+                            <span class="java">Java</span>
+                            <span class="mysql">MySql</span>
+                            <span class="figma">Figma</span>
                         </div>
                     </div>
                 </div>
@@ -175,14 +263,19 @@
                 <h5>Database Projects</h5>
             </div>
             <div class="sub-project-body">
-                <div class="sub-project-container">
-                    <!-- Div for the image -->
+                <div class="sub-project-container"
+                     data-description="This is the project description."
+                     data-project-link="https://google.com">
+                    <div class="project-img-cont">
+                        <img src="assets/images/Musang Forum - Main Page.png" alt="Musang Forum">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                    </div>
                     <div class="description">
                         <h2>Java Simple Console</h2>
                         <p>Lorem ipsum dolor sit amet</p>
                         <div class="tags">
-                            <span>Java</span>
-                            <span>XAMPP</span>
+                            <span class="java">Java</span>
+                            <span class="mysql">MySql</span>
                         </div>
                     </div>
                 </div>
@@ -194,22 +287,49 @@
                 <h5>Coding Projects</h5>
             </div>
             <div class="sub-project-body">
-                <div class="sub-project-container">
-                    <!-- Div for the image -->
+                <div class="sub-project-container"
+                     data-description="This is the project description."
+                     data-project-link="https://google.com">
+                    <div class="project-img-cont">
+                        <img src="assets/images/Musang Forum - Main Page.png" alt="Musang Forum">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                    </div>
                     <div class="description">
                         <h2>Java Simple Console</h2>
                         <p>Lorem ipsum dolor sit amet</p>
                         <div class="tags">
-                            <span>Java</span>
-                            <span>XAMPP</span>
+                            <span class="java">Java</span>
+                            <span class="mysql">MySql</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+<!--
+    Modal
+-->
+    <div id="portfolioModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-image-container">
+                <img id="modalImage" src="" alt="Project Preview">
+            </div>
+            <div class="modal-description-container">
+                <h2 id="modalTitle"></h2>
+                <hr id="modal-divider">
+                <p id="modalDescription"></p>
+                <a id="modalLink" href="#" target="_blank">View Source</a>
+            </div>
+        </div>
+    </div>
     <div id="copyright-container">
         <p>©2024 Huandika Ekaputra. All Rights Reserved.</p>
     </div>
+
+    <!--
+        JS-LINK
+    -->
+    <script src="script.js"></script>
 </body>
 </html>
